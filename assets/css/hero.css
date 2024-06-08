@@ -1,0 +1,45 @@
+/* HERO */
+.hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 3rem 1rem 0 1rem;
+}
+.hero-title{
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+
+}
+.hero-subtitle{
+    font-size: 1.5rem;
+    font-weight: normal;
+    margin-bottom: 3rem;
+
+}
+.hero-avatar{
+    display: block;
+    width: 12rem;
+    height: auto;
+    margin-bottom: 5rem;
+
+}
+.hero-devices{
+    display: block;
+    width: 100%;
+    max-width: 80rem;
+    height: auto;
+}
+@media(width > 600px){
+    .hero-title{
+        font-size: 4rem;
+
+    }
+    .hero-subtitle{
+        font-size: 2rem;
+    }
+    .hero-avatar{
+        width: 20rem;
+    }
+}
